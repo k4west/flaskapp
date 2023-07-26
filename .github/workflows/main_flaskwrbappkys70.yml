@@ -61,3 +61,7 @@ jobs:
           app-name: 'flaskwrbappKys70'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9AF89A6DD5D5442DB06BF94BB300CABF }}
+
+runs:
+  using: 'node16'
+  main: 'main.js'
